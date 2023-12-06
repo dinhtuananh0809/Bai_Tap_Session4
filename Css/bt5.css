@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+text-align: center;
+border: 1px solid rgb(219, 206, 206);
+margin: 10px 424px;
+padding: 0px 22px;
+}
+.contain{
+    background-color: rgb(213, 232, 232);
+    margin: 13px 0px;
+    padding: 28px 58px;
+}
+.contain > h1 {
+    margin: 10px 5px;
+}
+
+.form{
+    background-color: rgb(241, 203, 132);
+    padding: 5px 5px;
+}
+.input{
+    margin-left: 10px;
+    display: block;
+    border: none;
+    width: 495px;
+    height: 30px;
+}
+p{
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.form > button{
+    margin: 10px 10px;
+    display: block;
+    padding: 6px 10px;
+    background-color: rgb(10, 115, 160);
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
