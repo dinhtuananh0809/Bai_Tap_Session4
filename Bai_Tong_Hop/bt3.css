@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 800px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+img {
+  width: 100px;
+  height: 50px;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  margin: 35px 0px;
+}
+
+/* .cardnumber {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cardnumber > input {
+  margin-top: 10px;
+  width: 400px;
+  height: 30px;
+  border-radius: 10px;
+} */
+input:hover {
+  border: 2px solid rgb(50, 156, 222);
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+  background-color: rgb(89, 89, 226);
+  color: aliceblue;
+  margin-top: 15px;
+  margin-left: 15px;
+  border: none;
+}
+
+.cardnumber {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.number > input {
+  width: 462px;
+  height: 40px;
+  margin: 0px 200px;
+  border-radius: 10px;
+}
+
+.number > label {
+  margin: 0px 200px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.day > input {
+  width: 200px;
+  height: 40px;
+  margin-left: 200px;
+  border-radius: 10px;
+}
+
+.day > label {
+  margin-left: 200px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cvnumber > input {
+  width: 200px;
+  height: 40px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+
+.cvnumber > label {
+  margin-left: 50px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
